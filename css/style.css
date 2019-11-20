@@ -32,7 +32,9 @@ h1, h2, h3, h4, h5,
   border-width: 2px; }
 
 .text-black {
-  color: #000 !important; }
+  color: #000 !important; 
+  text-shadow: 2px 2px 10px white;
+}
 
 .bg-black {
   background: #000 !important; }
@@ -581,7 +583,11 @@ body:after {
       background: rgba(255, 255, 255, 0); }
       @media (max-width: 991.98px) {
         .site-blocks-cover.overlay:before {
-          background: rgba(255, 255, 255, 0.5); } }
+          background-image: url(../images/bg.jpg);
+          background-size: 900px;
+          background-position: center 90px;
+          background-repeat: no-repeat;
+        } }
   .site-blocks-cover, .site-blocks-cover > .container, .site-blocks-cover > .container > .row {
     min-height: 600px;
     height: 100vh; }
